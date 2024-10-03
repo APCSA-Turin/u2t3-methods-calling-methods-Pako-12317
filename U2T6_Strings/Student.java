@@ -57,7 +57,7 @@ public class Student {
     // add a new getStudentInfo() method here
     public String getStudentInfo(){
         
-        return("Student Full Name: " + firstName + " " + lastName+"\n"+"Graduation Year: " + gradYear+"\n"+);
+        return("Student Full Name: " + firstName + " " + lastName+"\n"+"Graduation Year: " + gradYear+"\n"+"Graduation Year: "+gradYear+"\n"+"Number of tests: "+testScoreCount+"\n"+"Average Test Score: "+averageTestScore()+"\n"+"Is Passing: "+isPassing());
     }
  
  }
